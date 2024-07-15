@@ -4,197 +4,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style1.css" type="text/css">
-    <script src="https://kit.fontawesome.com/06a079132a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="sty.css">
 </head>
 <body>
-    <nav>
-    <div class="nav-left">
-        <a href="index.html"><i class="fa-brands fa-facebook"></i></a>
-        <div class="search">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder="Search Facebook">
-        </div>
-    </div>
-    <div class="nav-center">
+   
+    <div class="div1" id="blur" >
+         <img class="header" src="	https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg">
         
-           <div class="but"><i class="fa-solid fa-house"></i></div>
-            <div class="button"><i class="fa-solid fa-user-group"></i></div>
-            <div class="button"><i class="fa-solid fa-tv"></i></div>
-            <div class="button"><i class="fa-solid fa-store"></i></div>
-            <div class="button"><i class="fa-regular fa-circle-user"></i></div>
-        
+        <p class="para">Facebook helps you connect and share <br>
+         with the people in your life.</p>
     </div>
-    <div class="nav-right">
-    <button class="grid"><i class="fa-solid fa-grip-vertical"></i><i class="fa-solid fa-grip-vertical"></i></button>
-    <button class="mess"><i class="fa-brands fa-facebook-messenger"></i></button>
-<button class="bell"><i class="fa-solid fa-bell"></i></button>
-<img class="profile" src="one piece/profile-pic.png">
-    </div>
-    </nav>
-    <div class="container">
+    <div class="div2" id="blurr">
 
-        <div class="left-sidebar">
-<div class="imp-links">
-            <a href="#"><img src="one piece/profile-pic.png"> Arnold S </a>
-<a href="#"><i class="fa-solid fa-user-group"></i>Friends</a>
-<a href="#"><i class="fa-solid fa-clock-rotate-left"></i>Memories</a>
-<a href="#"><i class="fa-solid fa-bookmark"></i>Saved</a>
-<a href="#"><i class="fa-solid fa-users"></i>Groups</a>
-<a href="#"><i class="fa-brands fa-youtube"></i>Videos</a>
-<a href="#"><i class="fa-solid fa-archway"></i>Marketplace</a>
-<a href="#"><i class="fa-regular fa-calendar-check"></i>Events</a>
-<a href="#"><i class="fa-solid fa-chart-simple"></i>Ads Manager</a>
-<a href="#"><i class="fa-solid fa-caret-down"></i>See more</a>
-        </div>
-        <div class="footer">
-    <p>Privacy  · Terms  · Advertising  · Ad choices   · Cookies  · More  · Meta © 2024</p>
-</div></div>
-<div class="main">
-    <div class="story-list">
-    <div class="story">
-    <img src="one piece/upload.png" >
-    <p>Create story</p>
+        <div class="form">
+
+            <input class="Email" type="text" placeholder="Email address or phone number">
+        
+            <input type="password" class="pass" placeholder="Password">
+        <a href="home.html"><button class="log"><span>Log in</span></button></a>
+        <p class="par"><a href="fbforgot.html"> Forgotten password?</a></p>    
+        <button class="create" onclick="onpopup()"><span>Create new account</span></button>
+        <p class="page"><a href="#"class="celeb">Create a Page</a> for a celebrity,brand or business.</p>
     </div>
-    <div class="story-1">
-        <img src="one piece/member-1.png" >
-        <p>Lamiya S</p>
-            </div>
-            <div class="story-2">
-                <img src="one piece/member-2.png" >
-                <p>Arjun k S</p>
-                    </div>
-                    <div class="story-3">
-                        <img src="one piece/member-3.png" >
-                        <p>Nikita Dinesh</p>
-                            </div>
-                        </div>
-                    
-            <div class="post">
-                <div class="post-box">
-                    
-                    <img src="one piece/profile-pic.png">
+    </div>
+        
+        <div class ="create-form" id="popup">
+            <h1>Sign Up</h1>
+            <img src="cross.png " onclick="closepopup()">
+            <h6>It's quick and easy</h6>
+            <input type="text" class="first" placeholder="First Name">
+            <input type="text" class="sur" placeholder="Surname">
+            <input type="email" class="mob" placeholder="Mobile Number or Email Address">
+            <input type="password" class="passs" placeholder="New password">
+
+            <label class="date">Date of birth</label>
+            <img class="ques"src="quest.jpeg">
+            <select name="day" class="day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+
+
+            </select>
+            <select class="month">
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="Mar">Mar</option>
+                <option value="Apr">Apr</option>
+                <option value="May">May</option>
+                <option value="Jun">Jun</option>
+                <option value="Jul">Jul</option>
+                <option value="Aug">Aug</option>
+                <option value="Sep">Sep</option>
+                <option value="Oct">Oct</option>
+                <option value="Nov">Nov</option>
+                <option value="Dec">Dec</option>
+
+            </select>
+            <select class="year">
+                <option value="1980">1980</option>
+                <option value="1981">1981</option>
+                <option value="1982">1982</option>
+                <option value="1983">1983</option>
+                <option value="1984">1984</option>
+                <option value="1985">1985</option>
+                <option value="1986">1986</option>
+                <option value="1987">1987</option>
+                <option value="1988">1988</option>
+                <option value="1989">1989</option>
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+                <option value="1994">1994</option>
+                <option value="1995">1995</option>
+                <option value="1996">1996</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
                 
-                    <input type="text" placeholder="What's on your mind,Arnold S">
-                </div>
-                <div class="post-box2">
-                    <div class="live">
-                        <i class="fa-solid fa-video"></i>Live video
-                    </div>
-                    <div class="photo">
-                        <i class="fa-solid fa-photo-film"></i>Photo/video
-                    </div>
-                    <div class="feeling">
-                        <i class="fa-regular fa-face-smile"></i>Feeling/activity
-                    </div>
-                </div>
-                </div>
-                <div class="troll">
-                    <div class="headd">
-                    <img src="one piece/member-7.png">
-                    <div class="headings">
-                        <p>Mike Wiliamson</p>
-                        <small>a day ago</small>
-                    </div>
-                    <div class="close">
-                    <button><i class="fa-solid fa-ellipsis"></i></button>
-                    <button><i class="fa-solid fa-xmark"></i></button>
-                </div></div>
-                <div class="middle">
-                <p>Ravi Sastri via MCC</p>
-                <br><p><small>See translation</small></p>
-                <img src="one piece/postt-2.jpg">
                 
-               
-            </div>
-            <div class="like">
-                <i class="fa-solid fa-thumbs-up"></i>
-                <i class="fa-solid fa-face-laugh-squint"></i>
-                <p>1.2K</p>
-                <span>13</span>
-                <i class="fa-solid fa-comment"></i>
-                <span>31</span>
-                <i class="fa-solid fa-share"></i>
-            </div>
-            <div class="end">
-                <a href="#"><i class="fa-regular fa-thumbs-up"></i>Like</a>
-                <a href="#"><i class="fa-regular fa-comment"></i>Comment</a>
-                <a href="#"><i class="fa-brands fa-whatsapp"></i>Send</a>
-                <a href="#"><i class="fa-solid fa-share"></i>Share</a>
 
-            </div>
-        </div>
+              
+            </select>
+            <label class="gender">Gender</label>
+            <img class="gend"src="quest.jpeg">
+       <p class="gen">Female<input type="radio" name="Male" ></p> 
+       <p class="gen">Male<input type="radio"  name="Male"></p>
+        <p class="gen">Custom<input type="radio" name="Male"  ></p>
+        <p class="last">People who use our service may have uploaded your contact information to Facebook. Learn more.
+            <br><br>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy.<br> You may receive
+             SMS notifications from us and can opt out at any time.
+        </p>
+        <button class="Sign"><label>Sign Up</label></button>
 
 
-        <div class="troll">
-            <div class="headd">
-            <img src="one piece/member-9.png">
-            <div class="headings">
-                <p>Troll Page</p>
-                <small>an hour ago</small>
-            </div>
-            <div class="close">
-            <button><i class="fa-solid fa-ellipsis"></i></button>
-            <button><i class="fa-solid fa-xmark"></i></button>
-        </div></div>
-        <div class="middle">
-        <p>Funny trolls</p>
-        <br><p><small>See translation</small></p>
-        <img src="one piece/postt-1.jpg">
         
-       
-    </div>
-    <div class="like">
-        <i class="fa-solid fa-thumbs-up"></i>
-        <i class="fa-solid fa-face-laugh-squint"></i>
-        <p>3.2K</p>
-        <span>23</span>
-        <i class="fa-solid fa-comment"></i>
-        <span>71</span>
-        <i class="fa-solid fa-share"></i>
-    </div>
-    <div class="end">
-        <a href="#"><i class="fa-regular fa-thumbs-up"></i>Like</a>
-        <a href="#"><i class="fa-regular fa-comment"></i>Comment</a>
-        <a href="#"><i class="fa-brands fa-whatsapp"></i>Send</a>
-        <a href="#"><i class="fa-solid fa-share"></i>Share</a>
-
-    </div>
-</div>
-
-
         </div>
        
-      
-        <div class="right-sidebar">
-            <div class="profiles">   
-                      <div class="birthday">
-                <label>Birthdays</label><br><br>
-                <i class="fa-solid fa-gift"></i>
-                <div class="birth"><b>Habeel Behnam's </b>birthday is<br> today.</div>
-             </div>
-             <div class="contacts">
-                <label>Contacts</label>
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-ellipsis"></i>
-             </div>
-             <div class="contact-sections">
-
-                
-            <a href="#"><button class="prof"><i class="fa-solid fa-user"></i></button>Arun k</a>
-            <a href="#"><button class="prof"><i class="fa-solid fa-user"></i></button>Lamiya S</a>
-            <a href="#"><button class="prof"><i class="fa-solid fa-user"></i></button>Arjun kS</a>
-            <a href="#"><button class="prof"><i class="fa-solid fa-user"></i></button>Fathima Jumana</a>
-            <a href="#"><button class="prof"><i class="fa-solid fa-user"></i></button>Afeef K</a>     
-            <a href="#"><button class="prof"><i class="fa-solid fa-user"></i></button>Muhammed Mazoom</a>     
-            <a href="#"><button class="prof"><i class="fa-solid fa-user"></i></button>Nikita Dinesh</a>     
-            <a href="#"><button class="prof"><i class="fa-solid fa-user"></i></button>Parvathy J Krishna</a>     
-        </div>
-             </div>
-        </div>
-
-    </div>
-
     
+    
+
+    <script>
+
+let popup= document.getElementById("popup");
+   let blur=document.getElementById("blur");
+   let blurr=document.getElementById("blurr");
+ 
+   function onpopup(){
+   
+    blur.classList.add("on-blur");
+    blurr.classList.add("on-blur");
+
+
+    popup.classList.add("on-popup");
+   
+   }
+
+   function closepopup(){
+    popup.classList.remove("on-popup");
+    blur.classList.remove("on-blur");
+    blurr.classList.remove("on-blur");
+   }
+
+
+
+    </script>
 </body>
+    
+
 </html>
